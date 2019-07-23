@@ -1,0 +1,68 @@
+.content{
+	height: 640px;
+	width: 640px;
+	margin: 50px auto;
+	position: relative;
+	/* background-color: red; */
+}
+.btn{
+	width:100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color:rgba(0,0,0,0.3);
+	z-index: 2;
+}
+.btn button{
+	background: none;
+	border:none;
+	background-size: 100% 100%;
+	
+	cursor: pointer;
+	outline: none;
+	
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}
+ .startBtn button {
+	width:200px;
+	height: 80px;
+	background-color: #FAEBD7; 
+	margin-left: -100px;
+	margin-top: -40px;
+	border-radius: 50%;
+} 
+/* 一开始时不让其暂停按钮显示出来 */
+.pauseBtn{
+	display: none;
+}
+/* 暂停按钮样式设置 */
+.pauseBtn button{
+	width: 70px;
+	height:70px ;
+	background-color: antiquewhite;
+	margin-left:-35px ;
+	margin-top:-35px ; 
+}
+#snakeWrap{
+	width: 600px;
+	height: 600px;
+	background:#225675;
+	border: 20px solid #7de9ff;
+	position: relative;
+}
+
+.snakeHead{
+	background-color: yellow;
+	border-radius: 50% ;
+}
+.snakeBody{
+	background-color: #9ddbb1;
+	border-radius: 50%;
+}
+.food{
+	background-color: red;
+	border-radius: 50%;
+}
